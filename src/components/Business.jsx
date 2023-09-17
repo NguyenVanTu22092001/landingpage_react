@@ -52,7 +52,7 @@ FeatureCard.propTypes = {
   icon: PropTypes.string.isRequired, // Ensure 'content' is a required string
   content: PropTypes.string.isRequired, // Ensure 'name' is a required string
   title: PropTypes.string.isRequired, // Ensure 'title' is a required string
-  index: PropTypes.string.isRequired, // Ensure 'img' is a required string
+  index: PropTypes.number.isRequired, // Ensure 'img' is a required string
 };
 
 export default Business;
